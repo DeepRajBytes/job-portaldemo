@@ -35,7 +35,7 @@
 }
 .container-main{
     width: 100% !important;
-    background-image: url(src/component/images/bg.jpg);
+    /* background-image: url(src/component/images/bg.jpg); */
     padding: 200px;
     /* / opacity: 0.8; / */
     background-repeat: no-repeat;

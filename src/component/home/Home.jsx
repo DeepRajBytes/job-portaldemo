@@ -6,18 +6,19 @@ import marketing from "../images/education.jpeg";
 import engneering from "../images/engeering.jpeg";
 import health from "../images/helth.jpeg";
 import software from "../images/software.jpeg";
+import bg from "../images/bg.jpg"
 
 function Home() {
   return (
     <>
-      <div className="container-main">
+      <div style={{backgroundImage:`url("${bg}")`}} className="container-main">
         <div className="body container">
           <h1 clas>
             Your job search ends here
             <h4>Discover 50 lakh+ career opportunities</h4>
           </h1>
           <Button className="w-25 explore" variant="success">
-            Explore Jobs
+          Explore Jobs
           </Button>{" "}
         </div>
       </div>
